@@ -4,7 +4,7 @@ variable "instance_name" {
 
 variable "security_group" {
   description = "what ports we want to allow via our created sg"
-  default = "sg-e70b939b"
+  default = "sg-254c6252"
 }
 
 variable "instance_type" {
