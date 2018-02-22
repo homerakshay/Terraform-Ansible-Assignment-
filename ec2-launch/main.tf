@@ -24,7 +24,7 @@ resource "aws_instance" "launchpad" {
    provisioner "local-exec" {
         command = "> /etc/ansible/hosts"
 }
-#       security_groups = [ "${data.aws_security_group.sec_group.name}" ]
+      security_groups = [ "${data.aws_security_group.sec_group.name}" ]
 
 #Lets tag our ec2 instance
  tags {
