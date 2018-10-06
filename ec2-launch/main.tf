@@ -42,4 +42,4 @@ output "get_id" {
    public_key = "${var.public_key}"
 }
 
-resource "null_resource" "test" {}
+resource "null_resource" "testing" {}
