@@ -41,3 +41,5 @@ output "get_id" {
    key_name   = "${var.key_name}"
    public_key = "${var.public_key}"
 }
+
+resource "null_resource" "test" {}
